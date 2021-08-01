@@ -2,7 +2,18 @@
   "files.associations": {
     "iostream": "cpp",
     "random": "cpp",
-    "array": "cpp"
+    "array": "cpp",
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "chrono": "cpp",
+    "condition_variable": "cpp",
+    "algorithm": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "mutex": "cpp",
+    "shared_mutex": "cpp",
+    "streambuf": "cpp",
+    "thread": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled"
 }
