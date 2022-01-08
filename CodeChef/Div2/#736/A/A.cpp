@@ -28,7 +28,7 @@ void solve()
     cin>>n;
     a=(n-1)/2;
     b=n-1;
-    cout<<a<<" "<<b<<endl;
+    cout<<"Hello World "<<endl;
     
 
 }
