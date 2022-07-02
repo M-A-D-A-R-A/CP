@@ -23,22 +23,9 @@ void swap (int *a, int *b)
 
 void solve()
 {
-    int n;
-    cin>>n;
-    string c;
-    cin>>c;
-
-    for (int i = 0; i < c.length(); i++)
-    {
-        if(c[i]=='U'){
-           c[i]='D';
-        }else if(c[i]=='D'){
-           c[i]='U';
-        }
-        
-    }
-     cout<<c<<'\n';
     
+    
+
 }
 
 int main()
