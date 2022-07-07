@@ -23,22 +23,22 @@ void swap (int *a, int *b)
 
 void solve()
 {
-    int n;
-    cin>> n;
-    int arr[200000];
+//     int n;
+//     cin>> n;
+//     int arr[200000];
 
-    for(int i =0; i < n;i++){
-        cin>>arr[i];
-    }
+//     for(int i =0; i < n;i++){
+//         cin>>arr[i];
+//     }
 
-   int ans =0;
+//    int ans =0;
 
-   for (int i = 0; i < n; i++)
-   {
-     ans = gcd(ans, arr[i]-i-1);
-   }
+//    for (int i = 0; i < n; i++)
+//    {
+//      ans = gcd(ans, arr[i]-i-1);
+//    }
 
-   cout << ans << endl;
+//    cout << ans << endl;
    
     
     
