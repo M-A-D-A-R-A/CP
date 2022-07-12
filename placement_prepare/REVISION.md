@@ -46,3 +46,50 @@
             3) Check if arr[mid] == 2, swap arr[mid] and arr high], decrement high pointer and increment low pointer
       
         ```
+
+ - LinkedList 
+    - Slow pointer fast pointer (finding middle of an linked list)
+      ``` 
+      If head is null just return null
+
+      If the Linked List has just 1 element that element is the middle
+
+            fast = head
+            slow = head
+
+      moving the fast and slow pointer until the fast pointer reaches the end while fast is not null and fast->next is not null
+
+
+      return slow /fast
+
+        ```
+
+    - Floyd marshal algo
+      ``` 
+      Node* floydDetectLoop(Node* head) {
+
+        if(head == NULL)
+            return NULL;
+
+            Node* slow = head;
+            Node* fast = head;
+
+            while(slow != NULL && fast !=NULL) {
+                
+                fast = fast -> next;
+                if(fast != NULL) {
+                    fast = fast -> next;
+                }
+
+                slow = slow -> next;
+
+                if(slow == fast) {
+                    return slow;
+                }
+            }
+
+            return NULL;
+
+        }
+
+        ```
