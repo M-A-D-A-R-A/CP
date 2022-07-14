@@ -48,6 +48,7 @@
         ```
 
  - LinkedList 
+    -  Always Create another pointer pointing to head/tail (Because if not that will change the whole LL)
     - Slow pointer fast pointer (finding middle of an linked list)
       ``` 
       If head is null just return null
