@@ -48,6 +48,7 @@
         ```
 
  - LinkedList 
+    -  Always Create another pointer pointing to head/tail (Because if not that will change the whole LL)
     - Slow pointer fast pointer (finding middle of an linked list)
       ``` 
       If head is null just return null
@@ -92,4 +93,28 @@
 
         }
 
+        ```
+  - Sorting and Searching
+     - Binart Search (Divide and conqure)
+       ```
+       
+       binarySearch(arr, x, low, high)
+        repeat till low = high
+              mid = low + (high – low)/2;  (to avoid memory overflow)
+                   if (x == arr[mid])
+                   return mid
+   
+                   else if (x > arr[mid]) // x is on the right side
+                       low = mid + 1
+   
+                   else                  // x is on the left side
+                       high = mid - 1
+       ```
+     - Selection sort
+        ```
+        - Initialize minimum value(min_idx) to location 0
+        - Traverse the array to find the minimum element in the array
+        - While traversing if any element smaller than min_idx is found then swap both the values.
+        - Then, increment min_idx to point to next element
+        - Repeat until array is sorted
         ```
