@@ -24,13 +24,19 @@ void swap (int *a, int *b)
 void solve()
 {
     int n,m;
-    cin>> n >> m;
-   
-    if(n >= m){
+    cin>> n;
+   while (n >0)
+   {
+    if(n %2 ==0 || n %7 == 0){
         cout <<"YES"<<endl;
-    }else cout <<"NO"<<endl;
+        return ;
+    }
+     n = n-7;
+   }
+   
+    cout <<"NO"<<endl;
     
-    
+    +
 }
 
 int main()
