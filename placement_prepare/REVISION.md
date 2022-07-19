@@ -49,7 +49,7 @@
 
  - LinkedList 
     -  Always Create another pointer pointing to head/tail (Because if not that will change the whole LL)
-    - Slow pointer fast pointer (finding middle of an linked list)
+    - Slow pointer fast pointer (Detecting loop in a linked list, checking palindrome in arrays, strings, and linked list, reversing a string or a linked list, two sum problem, finding the middle of a linked list, etc.)
       ``` 
       If head is null just return null
 
