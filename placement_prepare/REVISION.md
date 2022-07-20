@@ -94,6 +94,16 @@
         }
 
         ```
+  - Basic Algorithms
+    - Sliding Window
+      ```
+      We will start with window size = 1, then keep increasing the window size until the sum
+      of elements inside the window is greater than or equal to the target. If the sum equals
+      to target return true else decrease the window size from the left and reduce the sum
+      till it is less than or equal to the target.
+
+      ```
+     
   - Sorting and Searching
      - Binart Search (Divide and conqure)
        ```
