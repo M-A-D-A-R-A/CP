@@ -39,7 +39,7 @@
 
         while mid <= high
 
-            1) Check if arr[mid] == 0, swap arr[low] and arr mid], increment mid and low pointers
+            1) Check if arr[mid] == 0, swap arr[low] and arr [mid], increment mid and low pointers
 
             2) Check if arr[mid] == 1, increment mid pointer
 
@@ -128,3 +128,7 @@
         - Then, increment min_idx to point to next element
         - Repeat until array is sorted
         ```
+- Recursion
+     - Base Case    //to terminate the process
+     - Recursive call (Smaller problem)      //Solve one problem other recusion will take care of it.
+     - Self-work/ Calculation      // Mostly to backTrack 
