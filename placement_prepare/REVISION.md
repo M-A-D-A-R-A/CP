@@ -128,6 +128,14 @@
         - Then, increment min_idx to point to next element
         - Repeat until array is sorted
         ```
+      - Bubble Sort
+        ```
+        function bubbleSort(arr, N)
+          for idx = 0 to N-2
+            for jdx = 0 to N-idx-2
+                if arr[jdx] > arr[jdx+1]    // Last idx elements are already sorted
+                   swap(arr[jdx],arr[jdx+1])
+        ```
 - Recursion
      - Base Case    //to terminate the process
      - Recursive call (Smaller problem)      //Solve one problem other recusion will take care of it.
