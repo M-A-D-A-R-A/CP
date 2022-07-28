@@ -140,3 +140,46 @@
      - Base Case    //to terminate the process
      - Recursive call (Smaller problem)      //Solve one problem other recusion will take care of it.
      - Self-work/ Calculation      // Mostly to backTrack 
+
+- Trees
+    - Pre Order Travesal
+      ```
+      function preOrderTraversal(root) 
+           if root is null 
+                return    
+           
+           //   process current node 
+           print “root.data”     
+           
+           //   calling function recursively for left and right subtrees 
+           preOrderTraversal(root.left) 
+           preOrderTraversal(root.right)
+      ```
+    - In Order Travesal
+      ```
+      function inOrderTraversal(root) 
+         if root is null
+              return 
+
+         //calling function recursively for left subtree 
+         inOrderTraversal(root.left) 
+
+         //   process current node 
+         print “root.data”
+
+         //   calling function recursively for right subtree 
+         inOrderTraversal(root.right)
+      ```
+    - Pre Order Travesal
+      ```
+      function postOrderTraversal(root) 
+        if root is null return 
+
+        //   calling function recursively for left and right subtrees 
+        postOrderTraversal(root.left) 
+        postOrderTraversal(root.right) 
+
+        //   process current node 
+        print “root.data”
+      ```
+      
