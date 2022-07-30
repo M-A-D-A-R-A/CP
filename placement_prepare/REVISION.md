@@ -203,4 +203,13 @@
       
       if removedNode.right is not null queue.add(removedNode.right) end
       ```
-      
+ - Greedy Applications
+     -  Sorting: Selection sort, Topological sort 
+     -  Priority Queues: Heap Sort 
+     -  Huffman coding Compression algorithm 
+     -  Prim’s and Kruskal’s algorithm 
+     -  Shortest path in the weighted graph(Dijkstra’s) 
+     -  Coin change problem (for Indian currency)
+     -  Fractional knapsack problem
+     -  Disjoint sets: union by size or union by rank
+     -  Job scheduling algorithm    
