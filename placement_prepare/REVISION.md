@@ -183,26 +183,26 @@
         print “root.data”
       ```
      - Level Order travesal
-      ```
-      function levelOrderTraversal()
-      if root is null return 
-      
-      //   Create queue of type Node and add root to the queue 
-      queue.add(root). 
-      while the queue is not empty 
-      
-      //   remove the front item from the queue
-      removedNode= queue.remove() 
-      
-      //   process the removedNode print “removeNode.data”
-      
-      /* Add the left and right child of the removedNode if they are not null */ 
-      
-      if removedNode.left is not null 
-      queue.add(removedNode.left) 
-      
-      if removedNode.right is not null queue.add(removedNode.right) end
-      ```
+        ```
+        function levelOrderTraversal()
+        if root is null return 
+
+        //   Create queue of type Node and add root to the queue 
+        queue.add(root). 
+        while the queue is not empty 
+
+        //   remove the front item from the queue
+        removedNode= queue.remove() 
+
+        //   process the removedNode print “removeNode.data”
+
+        /* Add the left and right child of the removedNode if they are not null */ 
+
+        if removedNode.left is not null 
+        queue.add(removedNode.left) 
+
+        if removedNode.right is not null queue.add(removedNode.right) end
+        ```
  - Greedy Applications
      -  Sorting: Selection sort, Topological sort 
      -  Priority Queues: Heap Sort 
