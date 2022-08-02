@@ -213,3 +213,6 @@
      -  Fractional knapsack problem
      -  Disjoint sets: union by size or union by rank
      -  Job scheduling algorithm    
+ - DP
+     - Top-down approach
+     - Bottom up approach
