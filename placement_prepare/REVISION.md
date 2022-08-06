@@ -221,3 +221,6 @@
 ## DBMS
  1) https://www.geeksforgeeks.org/commonly-asked-dbms-interview-questions/
  2) https://www.geeksforgeeks.org/commonly-asked-dbms-interview-questions-set-2/?ref=rp
+
+## OS
+ 1) https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions/
