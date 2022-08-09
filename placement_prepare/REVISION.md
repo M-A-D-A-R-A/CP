@@ -226,3 +226,6 @@
 ## OS
  1) https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions/
  2) https://www.interviewbit.com/operating-system-interview-questions/
+ 
+## OOPs
+ 1) https://www.javatpoint.com/java-oops-concepts
