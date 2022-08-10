@@ -222,6 +222,7 @@
  1) https://www.geeksforgeeks.org/commonly-asked-dbms-interview-questions/
  2) https://www.geeksforgeeks.org/commonly-asked-dbms-interview-questions-set-2/?ref=rp
  3) https://www.geeksforgeeks.org/acid-properties-in-dbms/?ref=lbp
+ 4) https://whimsical.com/dbms-roadmap-by-love-babbar-FmUi8ffVop33t3MmpVxPCo
 
 ## OS
  1) https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions/
